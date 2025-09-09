@@ -1,11 +1,11 @@
 import pyreadstat
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as pltpyth
 from scipy.interpolate import interp1d
 
 # === Load Data ===
-real_df, meta = pyreadstat.read_sav("Masterfile Experiment 1.sav")
+real_df, meta = pyreadstat.read_sav("Data_Experiment 2.sav")
 
 # === Model Parameters ===
 params = {
